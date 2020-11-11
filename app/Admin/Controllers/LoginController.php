@@ -16,4 +16,11 @@ class LoginController extends Controller
         $data['data'] = $datas;
         return response()->json($data,200);
     }
+
+    public function logout()
+    {
+        $data['code'] = 200;
+        $data['msg'] = '退出成功';
+        return response()->json($data,200);
+    }
 }
