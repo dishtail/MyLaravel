@@ -10,7 +10,7 @@ class LoginController extends Controller
     public function login()
     {
         $datas['name'] = 'admin';
-        $datas['token'] = 'this_is_token';
+        $datas['token'] = 'admin-token';
         $data['code'] = 200;
         $data['msg'] = '登录成功';
         $data['data'] = $datas;
