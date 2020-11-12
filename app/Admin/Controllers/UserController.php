@@ -4,6 +4,7 @@
 namespace App\Admin\Controllers;
 
 
+use http\Client\Request;
 use Illuminate\Routing\Controller;
 
 class UserController extends Controller
