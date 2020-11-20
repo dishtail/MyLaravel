@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Admin\Controllers;
+namespace App\admin\Controllers;
 
 use Illuminate\Routing\Controller;
-
+//登录操作控制器
 class LoginController extends Controller
 {
     public function login()
